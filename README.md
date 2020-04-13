@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# covid19impactestimator-ui
+A simple app that estimates expected impact of COVID19 based on input data.
+
+The app has a form with fields which you fill and then submit to get the estimated impact data and a graph of best case and worst case scenarios.
+
+Visit the hosted app [here]
+
+
+>>>>>>> 4775b399ddd6d42bbee1e8c8acbc8317e7ca2528
