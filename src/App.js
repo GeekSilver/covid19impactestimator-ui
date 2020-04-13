@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 // jquery dependency for bootstrap
 import $ from 'jquery';
 import '../node_modules/bootstrap/dist/js/bootstrap';
+import './index.css';
 
 import { useCovidEstimator } from './customHooks';
 import {Bar} from 'react-chartjs-2';
