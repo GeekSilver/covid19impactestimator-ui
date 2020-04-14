@@ -1,9 +1,6 @@
-import React, { useReducer, useRef }  from 'react';
+import React, { useReducer }  from 'react';
 import Chart from '../node_modules/chart.js/dist/Chart.bundle';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
-// jquery dependency for bootstrap
-import $ from 'jquery';
-import '../node_modules/bootstrap/dist/js/bootstrap';
+import './bootstrap.min.css';
 import './index.css';
 
 import { useCovidEstimator } from './customHooks';
@@ -101,10 +98,10 @@ function App() {
           <div className="col-10 offset-1">
             <label htmlFor="avgDailyIncomePopulation">Average Daily Income Population</label>
             <div className="input-group">
+            <input type="number" id="avgDailyIncomePopulation" className="form-control"></input>
               <div className="input-group-append">
                 <div className="input-group-text">%</div>
               </div>
-              <input type="number" id="avgDailyIncomePopulation" className="form-control"></input>
             </div>
           </div>
         </div>

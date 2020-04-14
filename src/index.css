@@ -1,3 +1,21 @@
-label, .form-control{
+label, .input-group, .input-group-append {
+  color: #000000; 
+}
+
+.form-control{
   color: #000000;
+  border-color: #000000;
+}
+
+.input-group-text {
+  color: #000000;
+  border-color: #000000;
+}
+
+input {
+  color: #000000;
+}
+
+body {
+  background-color: #ffff00;
 }
