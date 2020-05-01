@@ -19,3 +19,11 @@ input {
 body {
   background-color: #ffff00;
 }
+
+table tr td:nth-child(2){
+  color: #007bff;
+}
+
+table tr td:nth-child(3){
+  color: #dc3545;
+}
